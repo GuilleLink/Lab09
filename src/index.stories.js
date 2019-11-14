@@ -6,15 +6,14 @@ import { Button } from '@storybook/react/demo';
 
 export default { title: 'Button' };
 
-
-
-
-export const withText = () => <Button>Hello Button</Button>;
-
 export const withEmoji = () => (
   <Button><span role="img" aria-label="so cool">😀 😎 👍 💯</span></Button>
 );
 
-export const withTexEmoji = () => <Button> Hello World </Button>;
+export const rockButton = () => <Button>Rock</Button>;
 
+export const paperButton = () => <Button>Paper</Button>;
 
+export const scisorsButton = () => <Button>Scisors</Button>;
+
+export const refreshButton = () => <Button>Refresh Round</Button>;
